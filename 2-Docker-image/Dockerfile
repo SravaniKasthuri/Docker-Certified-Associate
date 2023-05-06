@@ -1,7 +1,7 @@
 # Use a smaller base image
 FROM httpd:2.4-alpine
 
-LABEL maintainer="Varun Manik"
+LABEL maintainer="Sravani Kasthuri"
 
 # Copy only the necessary files
 COPY ./index.html /usr/local/apache2/htdocs/
